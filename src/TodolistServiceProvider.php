@@ -1,8 +1,8 @@
 <?php
-namespace DevLabs\Todolist;
+namespace Todolist;
 
 use Illuminate\Support\ServiceProvider;
-use DevLabs\Todolist\TodolistController;
+use Todolist\TodolistController;
 
 class TodolistServiceProvider extends ServiceProvider
 {
@@ -28,6 +28,6 @@ class TodolistServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('DevLabs\Todolist\TodolistController');
+        $this->app->make('Todolist\TodolistController');
     }
 }

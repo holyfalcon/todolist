@@ -1,10 +1,10 @@
 <?php
 
-namespace DevLabs\Todolist;
+namespace Todolist;
 
 use App\Http\Controllers\Controller;
 use Request;
-use DevLabs\Todolist\Task;
+use Todolist\Task;
 
 class TodolistController extends Controller
 {

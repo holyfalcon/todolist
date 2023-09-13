@@ -1,6 +1,6 @@
 <?php
 
-namespace DevLabs\Todolist;
+namespace Todolist;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
