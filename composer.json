@@ -1,0 +1,26 @@
+{
+    "name": "devlabs/todolist",
+    "description": "You can create the to-do-list of your task.",
+    "type": "library",
+    "license": "Wallex",
+    "autoload": {
+        "psr-4": {
+            "DevLabs\\Todolist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shahin",
+            "email": "sh.bozorgi@phinix.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevLabs\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    }
+}
