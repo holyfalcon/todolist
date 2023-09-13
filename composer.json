@@ -2,7 +2,7 @@
     "name": "shahin366/todo-list",
     "description": "You can create the to-do-list of your task.",
     "type": "library",
-    "license": "Wallex",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Todolist\\": "src/"

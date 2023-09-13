@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Wallex\\Todolist\\' => array($baseDir . '/src'),
+    'Todolist\\' => array($baseDir . '/src'),
 );
